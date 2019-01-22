@@ -55,5 +55,11 @@
         /// Stable particle?
         /// </summary>
         public bool IsStable { get; protected set; }
+
+
+        public void Update()
+        {
+
+        }
     }
 }
