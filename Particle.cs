@@ -1,4 +1,4 @@
-namespace EPS
+﻿namespace EPS
 {
     public class Particle
     {
@@ -31,6 +31,10 @@ namespace EPS
         /// </summary>
         public long S { get; protected set; }
         /// <summary>
+        /// Life time
+        /// </summary>
+        public double t { get; protected set; }
+        /// <summary>
         /// Isotopic spin
         /// </summary>
         public QuantumState Iz { get; protected set; }
@@ -46,8 +50,6 @@ namespace EPS
         /// Spin
         /// </summary>
         public QuantumState Sp { get; protected set; }
-
-
 
         /// <summary>
         /// Stable particle?
